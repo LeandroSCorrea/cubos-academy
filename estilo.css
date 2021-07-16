@@ -1,0 +1,141 @@
+/* * {
+  border: 2px solid blue;
+} */
+h1,
+h2,
+h3,
+body,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 64px;
+  font-weight: normal;
+}
+h3 {
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+h1 span {
+  font-weight: bold;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+.profissao {
+  font-size: 24px;
+}
+.t60 {
+  color: rgba(0, 0, 0, 0.6);
+}
+body {
+  background-color: #e5e5e5;
+}
+header {
+  background-color: #fff;
+  padding: 32px 64px;
+}
+main {
+  display: flex;
+  padding: 40px 70px;
+}
+.foto {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #ffc700;
+  margin-bottom: -100px;
+  margin-right: 24px;
+}
+.dados {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.coluna-menor {
+  margin-top: 48px;
+  width: 288px;
+}
+.coluna-menor li {
+  display: flex;
+  margin-top: 32px;
+}
+.linha {
+  width: 80px;
+  border-top: 2px solid;
+  margin-top: 5px;
+}
+.experiencias .linha {
+  border-color: #4200ff;
+}
+.coluna-menor img {
+  width: 60px;
+  height: 40px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+.coluna-menor li {
+  margin-top: 32px;
+}
+.conteudo {
+  display: inline-block;
+}
+.formacao {
+  margin-top: 32px;
+}
+.formacao .linha {
+  border-color: #ffc700;
+}
+.habilidades {
+  display: flex;
+  flex-wrap: wrap;
+}
+.coluna-maior {
+  margin-left: 24px;
+}
+.coluna-maior h2 {
+  font-size: 42px;
+  margin-bottom: 25px;
+  margin-left: 16px;
+}
+.habilidade {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 24px;
+  margin: 12px;
+}
+.habilidade h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.habilidade p {
+  font-size: 20px;
+}
+.progresso {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.barra {
+  width: 20%;
+  margin-top: 8px;
+  height: 4px;
+  background-color: #4200ff;
+}
+.incompleto {
+  opacity: 0.2;
+}
+.habilidade li {
+  margin-top: 32px;
+}
+.habilidade li:first-child {
+  margin-top: 0px;
+}
